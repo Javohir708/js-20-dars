@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+.sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    background-color: #222;
+    color: #ddd;
+}
+.form input,
+.form button {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 12px;
+}
+.form input {
+    text-indent: 1.1em;
+}
+.content {
+    padding: 30px;
+}
+.wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.card {
+    width: 300px;
+    padding: 12px;
+    box-shadow: 0 0 10px #0003;
+    border-radius: 10px;
+    word-break: break-all;
+}
+.male, .female {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-indent: 1.1em;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.male {
+    margin-right: 45px;
+}
+.male:hover {
+    background-color: dodgerblue;
+}
+.female:hover {
+    background-color: dodgerblue;
+}
+img {
+    width: 45px;
+    height: 45px;
+}
