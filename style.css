@@ -61,8 +61,14 @@
 .male:hover {
     background-color: dodgerblue;
 }
+.male:active {
+    transform: scale(.9);
+}
 .female:hover {
     background-color: dodgerblue;
+}
+.female:active {
+    transform: scale(.9);
 }
 img {
     width: 45px;
